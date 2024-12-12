@@ -15,6 +15,37 @@
     color: #9ad79b;
   }
 
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #101010;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  main {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .content {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+  }
+
   footer {
     position: relative;
     text-align: center;
