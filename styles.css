@@ -16,12 +16,12 @@
   }
 
   header {
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: #101010;
+    background-color: #e20707;
     border-bottom: 3px dashed #2a2a2a;
 
   }
@@ -49,9 +49,8 @@
    
   
   .sidebar {
-    position: absolute;
-    top: 50;
-    right: 0;
+    position: relative;
+    left: 80%;
     width: 20%;
     background-color: #101010;
     padding: 10px;
