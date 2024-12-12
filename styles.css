@@ -21,20 +21,22 @@
     left: 0;
     width: 100%;
     padding: 20px;
-    text-align: center;
     background-color: #101010;
-    border-bottom: 1px solid #2a2a2a;
+    border-bottom: 3px dashed #2a2a2a;
+
   }
+
   main {
     position: relative;
     margin: 20px auto;
-    width: 80%;
+    width: 100%;
+      margin-bottom: 30px;
   }
-
   .content {
     position: relative;
-    text-align: center;
     margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 3px dashed #2a2a2a;
   }
 
   .content h2 {
@@ -45,22 +47,18 @@
   .content p {
     margin-bottom: 20px;
   }
-  .content button {
-    padding: 10px 20px;
-    background-color: #3d3d3d;
-    border: none;
-    color: #a4ffb3;
-    cursor: pointer;
-  }
   
+
+  
+ 
   .sidebar {
     position: absolute;
-    top: 0;
+    top: 50;
     right: 0;
     width: 20%;
     background-color: #101010;
     padding: 10px;
-    border: 1px solid #2a2a2a;
+    border: 1px dashed #2a2a2a;
   }
 
   .sidebar h3 {
@@ -74,11 +72,27 @@
   .sidebar li {
     margin-bottom: 5px;
   }
+  .features {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+
   footer {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 400px;
     background-color: #101010;
-    border-top: 1px solid #2a2a2a;
+    border-top: 1px dashed #2a2a2a;
   }
